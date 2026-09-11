@@ -35,36 +35,6 @@ Além da versão desktop, o projeto foi pensado especialmente para funcionar tam
 
 ---
 
-## ✦ Estrutura do projeto
-
-```text
-inspira-fam/
-│
-├── index.html
-├── inscricoes.html
-├── mapa.html
-├── style.css
-├── script.js
-│
-└── assets/
-    │
-    ├── brand/
-    │   ├── logo-experience-horizontal.png
-    │   ├── mascote-arco.png
-    │   ├── mascote-estrela.png
-    │   ├── mascote-explosao.png
-    │   ├── mascote-quadrado.png
-    │   └── mascote-triangulo.png
-    │
-    ├── photos/
-    │   └── frame-14.jpg
-    │
-    └── video/
-        └── identidade-inspira.mp4
-```
-
----
-
 ## ✦ Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando:
