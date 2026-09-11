@@ -1,11 +1,911 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#00101d">
+
+  <meta name="description" content="Inspira FAM Experience 2026">
+
+  <title>
+    Inspira FAM Experience — 2026
+  </title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Olá pessoal</h1>
+
+
+<body class="event-page">
+
+  <!-- =========================================================
+       ÍNDICE DO INDEX.HTML
+       01. MENU
+       02. HERO
+       03. SOBRE / MANIFESTO
+       04. IMPACTO
+       05. EXPERIÊNCIAS
+       06. GALERIA
+       07. PRÓXIMA EDIÇÃO
+       08. CTA FINAL
+       09. FOOTER
+       10. MODAL DE EXPERIÊNCIAS
+  ========================================================= -->
+
+
+  <div class="noise" aria-hidden="true"></div>
+
+
+  <!-- =========================================================
+       01. MENU
+  ========================================================= -->
+
+  <header class="site-nav" id="top">
+
+    <a
+      class="brand-link"
+      href="#top"
+      aria-label="Inspira FAM Experience"
+    >
+
+      <img
+        src="assets/brand/logo-experience-horizontal.png"
+        alt="Inspira FAM Experience"
+      >
+
+    </a>
+
+
+    <nav aria-label="Navegação principal">
+
+      <a
+        class="nav-link active"
+        href="#evento"
+      >
+        Evento
+      </a>
+
+      <a
+        class="nav-link"
+        href="mapa.html"
+      >
+        Mapa
+      </a>
+
+      <a
+        class="nav-link nav-cta"
+        href="inscricoes.html"
+      >
+        Inscrições
+        <span>↗</span>
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <main id="evento">
+
+
+    <!-- =========================================================
+         02. HERO
+    ========================================================= -->
+
+    <section class="hero">
+
+      <div
+        class="hero-stripes"
+        aria-hidden="true"
+      ></div>
+
+
+      <div class="hero-video-wrap">
+
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="assets/photos/frame-14.jpg"
+        >
+
+          <source
+            src="assets/video/identidade-inspira.mp4"
+            type="video/mp4"
+          >
+
+        </video>
+
+      </div>
+
+
+      <div class="hero-gradient"></div>
+
+
+      <div class="hero-copy reveal">
+
+        <p class="eyebrow">
+          FAM • 2026
+        </p>
+
+
+        <img
+          class="hero-logo"
+          src="assets/brand/logo-experience-horizontal.png"
+          alt="Inspira FAM Experience"
+        >
+
+
+        <p class="hero-subtitle">
+          Uma experiência que você precisa
+          <strong>viver.</strong>
+        </p>
+
+
+        <a
+          class="button button-light"
+          href="inscricoes.html"
+        >
+          QUERO PARTICIPAR
+          <span>→</span>
+        </a>
+
+      </div>
+
+
+      <img
+        class="mascot hero-mascot m-star"
+        src="assets/brand/mascote-estrela.png"
+        alt=""
+      >
+
+
+      <img
+        class="mascot hero-mascot m-square"
+        src="assets/brand/mascote-quadrado.png"
+        alt=""
+      >
+
+
+      <div class="scroll-cue">
+
+        <span>
+          role para descobrir
+        </span>
+
+        <i></i>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         03. SOBRE / MANIFESTO
+    ========================================================= -->
+
+    <section
+      class="manifesto section-dark"
+      id="sobre"
+    >
+
+      <div class="section-index">
+        01 / 06
+      </div>
+
+
+      <div class="manifesto-title reveal">
+
+        <span class="kicker">
+          O EVENTO
+        </span>
+
+        <h2>
+          MAIS QUE<br>
+          <i>UM EVENTO.</i>
+        </h2>
+
+      </div>
+
+
+      <div class="manifesto-body reveal">
+
+        <p class="lead">
+          UMA<br>
+          <strong>EXPERIÊNCIA.</strong>
+        </p>
+
+        <p>
+          Uma mesma experiência pode despertar sensações
+          diferentes em cada pessoa.
+
+          É dessa ideia que nasce o
+          <strong>Inspira FAM</strong>:
+          um convite para sair do óbvio,
+          despertar curiosidade,
+          surpreender e provocar novas experiências.
+        </p>
+
+
+        <div class="manifesto-signature">
+
+          desperte
+
+          <span>→</span>
+
+          sinta
+
+          <span>→</span>
+
+          viva
+
+        </div>
+
+      </div>
+
+
+      <div
+        class="floating-word"
+        aria-hidden="true"
+      >
+        experiência
+      </div>
+
+
+      <img
+        class="mascot manifesto-mascot"
+        src="assets/brand/mascote-arco.png"
+        alt=""
+      >
+
+    </section>
+
+
+
+    <!-- =========================================================
+         04. IMPACTO
+    ========================================================= -->
+
+    <section
+      class="impact section-light"
+      id="impacto"
+    >
+
+      <div class="section-index dark-index">
+        02 / 06
+      </div>
+
+
+      <div class="impact-head reveal">
+
+        <span class="kicker">
+          IMPACTO
+        </span>
+
+        <h2>
+          O QUE JÁ<br>
+          <i>FOI VIVIDO.</i>
+        </h2>
+
+      </div>
+
+
+      <div class="edition-list">
+
+
+        <!-- 2023 -->
+
+        <article class="edition reveal">
+
+          <span class="edition-year">
+            2023
+          </span>
+
+          <div class="edition-line"></div>
+
+          <div>
+
+            <span class="edition-label">
+              tema
+            </span>
+
+            <h3>
+              5 sentidos
+            </h3>
+
+          </div>
+
+          <img
+            class="mascot tiny-mascot"
+            src="assets/brand/mascote-triangulo.png"
+            alt=""
+          >
+
+        </article>
+
+
+
+        <!-- 2024 -->
+
+        <article class="edition reveal">
+
+          <span class="edition-year">
+            2024
+          </span>
+
+          <div class="edition-line"></div>
+
+          <div>
+
+            <span class="edition-label">
+              tema
+            </span>
+
+            <h3>
+              Brasilidades
+            </h3>
+
+          </div>
+
+          <img
+            class="mascot tiny-mascot"
+            src="assets/brand/mascote-estrela.png"
+            alt=""
+          >
+
+        </article>
+
+
+
+        <!-- 2025 -->
+
+        <article class="edition reveal">
+
+          <span class="edition-year">
+            2025
+          </span>
+
+          <div class="edition-line"></div>
+
+          <div>
+
+            <span class="edition-label">
+              tema
+            </span>
+
+            <h3>
+              Analógico digital
+            </h3>
+
+          </div>
+
+          <img
+            class="mascot tiny-mascot"
+            src="assets/brand/mascote-explosao.png"
+            alt=""
+          >
+
+        </article>
+
+      </div>
+
+
+      <div class="impact-statement reveal">
+
+        cada edição<br>
+
+        <span>
+          abre uma nova janela.
+        </span>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         05. EXPERIÊNCIAS
+    ========================================================= -->
+
+    <section
+      class="experiences section-gradient"
+      id="experiencias"
+    >
+
+      <div class="section-index">
+        03 / 06
+      </div>
+
+
+      <div class="experience-intro reveal">
+
+        <span class="kicker">
+          EXPERIÊNCIAS
+        </span>
+
+        <h2>
+          ENTRE.<br>
+          <i>EXPLORE.</i><br>
+          PARTICIPE.
+        </h2>
+
+        <p>
+          Uma programação pensada para colocar
+          pessoas, ideias, marcas e experiências
+          no mesmo lugar.
+        </p>
+
+      </div>
+
+
+      <div class="experience-list">
+
+
+        <button
+          class="experience-item reveal"
+          type="button"
+          data-tone="orange"
+          data-experience="expositores"
+        >
+
+          <span>01</span>
+
+          <strong>
+            Expositores
+          </strong>
+
+          <i>↗</i>
+
+        </button>
+
+
+
+        <button
+          class="experience-item reveal"
+          type="button"
+          data-tone="yellow"
+          data-experience="gastronomia"
+        >
+
+          <span>02</span>
+
+          <strong>
+            Gastronomia
+          </strong>
+
+          <i>↗</i>
+
+        </button>
+
+
+
+        <button
+          class="experience-item reveal"
+          type="button"
+          data-tone="purple"
+          data-experience="atividades"
+        >
+
+          <span>03</span>
+
+          <strong>
+            Atividades
+          </strong>
+
+          <i>↗</i>
+
+        </button>
+
+
+
+        <button
+          class="experience-item reveal"
+          type="button"
+          data-tone="pink"
+          data-experience="networking"
+        >
+
+          <span>04</span>
+
+          <strong>
+            Networking
+          </strong>
+
+          <i>↗</i>
+
+        </button>
+
+      </div>
+
+
+      <div class="experience-stage">
+
+        <div class="stage-ring"></div>
+
+        <img
+          class="mascot stage-mascot"
+          src="assets/brand/mascote-quadrado.png"
+          alt=""
+        >
+
+        <span class="stage-word">
+          VIVA
+        </span>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         06. GALERIA
+    ========================================================= -->
+
+    <section
+      class="gallery section-dark"
+      id="fotos"
+    >
+
+      <div class="section-index">
+        04 / 06
+      </div>
+
+
+      <div class="gallery-head reveal">
+
+        <span class="kicker">
+          ÚLTIMA EDIÇÃO
+        </span>
+
+        <h2>
+          MEMÓRIAS<br>
+          <i>QUE FICAM.</i>
+        </h2>
+
+        <p>
+          Espaço preparado para receber
+          as fotografias oficiais da última edição.
+        </p>
+
+      </div>
+
+
+      <div class="editorial-gallery">
+
+        <button
+          class="photo-placeholder p1 reveal"
+          type="button"
+        >
+          <span>FOTO 01</span>
+          <strong>adicione sua foto</strong>
+        </button>
+
+
+        <button
+          class="photo-placeholder p2 reveal"
+          type="button"
+        >
+          <span>FOTO 02</span>
+          <strong>adicione sua foto</strong>
+        </button>
+
+
+        <button
+          class="photo-placeholder p3 reveal"
+          type="button"
+        >
+          <span>FOTO 03</span>
+          <strong>adicione sua foto</strong>
+        </button>
+
+
+        <button
+          class="photo-placeholder p4 reveal"
+          type="button"
+        >
+          <span>FOTO 04</span>
+          <strong>adicione sua foto</strong>
+        </button>
+
+
+        <button
+          class="photo-placeholder p5 reveal"
+          type="button"
+        >
+          <span>FOTO 05</span>
+          <strong>adicione sua foto</strong>
+        </button>
+
+      </div>
+
+
+      <div
+        class="gallery-marquee"
+        aria-hidden="true"
+      >
+        <span>
+          INSPIRA • EXPERIENCE • INSPIRA • EXPERIENCE •
+          INSPIRA • EXPERIENCE • INSPIRA • EXPERIENCE •
+        </span>
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         07. PRÓXIMA EDIÇÃO
+    ========================================================= -->
+
+    <section
+      class="next-edition section-light"
+      id="data"
+    >
+
+      <div class="section-index dark-index">
+        05 / 06
+      </div>
+
+
+      <div class="next-copy reveal">
+
+        <span class="kicker">
+          PRÓXIMA EDIÇÃO
+        </span>
+
+        <h2>
+          MARQUE<br>
+          <i>NA AGENDA.</i>
+        </h2>
+
+      </div>
+
+
+      <div class="date-lockup reveal">
+
+        <div class="date-big">
+          10<span>—</span>12
+        </div>
+
+        <div class="date-month">
+          NOV<br>
+          <small>2026</small>
+        </div>
+
+      </div>
+
+
+      <div class="event-details reveal">
+
+        <div>
+
+          <span>
+            quando
+          </span>
+
+          <strong>
+            10 a 12 de novembro
+          </strong>
+
+        </div>
+
+
+        <div>
+
+          <span>
+            horário
+          </span>
+
+          <strong>
+            19h às 22h
+          </strong>
+
+        </div>
+
+
+        <div>
+
+          <span>
+            onde
+          </span>
+
+          <strong>
+            Faculdade FAM — Quadra interna
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <div class="detail-sticker">
+
+        FAM<br>
+
+        <span>
+          2026
+        </span>
+
+      </div>
+
+
+      <img
+        class="mascot detail-mascot"
+        src="assets/brand/mascote-estrela.png"
+        alt=""
+      >
+
+    </section>
+
+
+
+    <!-- =========================================================
+         08. CTA FINAL
+    ========================================================= -->
+
+    <section
+      class="final-cta section-pink"
+      id="inscricao-cta"
+    >
+
+      <div class="cta-rays"></div>
+
+
+      <img
+        class="mascot cta-mascot cta-m1"
+        src="assets/brand/mascote-triangulo.png"
+        alt=""
+      >
+
+
+      <img
+        class="mascot cta-mascot cta-m2"
+        src="assets/brand/mascote-explosao.png"
+        alt=""
+      >
+
+
+      <div class="cta-content reveal">
+
+        <span class="kicker">
+          06 / 06 • AGORA É COM VOCÊ
+        </span>
+
+        <h2>
+          VAMOS<br>
+          <i>VIVER ISSO</i><br>
+          JUNTOS?
+        </h2>
+
+
+        <img
+          src="assets/brand/logo-experience-horizontal.png"
+          alt="Inspira FAM Experience"
+          class="cta-logo"
+        >
+
+
+        <a
+          class="button button-dark"
+          href="inscricoes.html"
+        >
+          FAÇA SUA INSCRIÇÃO
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =========================================================
+       09. FOOTER
+  ========================================================= -->
+
+  <footer class="footer section-dark">
+
+    <img
+      src="assets/brand/logo-experience-horizontal.png"
+      alt="Inspira FAM Experience"
+    >
+
+
+    <div>
+
+      <span>
+        10—12 NOV 2026
+      </span>
+
+      <span>
+        FAM • QUADRA INTERNA
+      </span>
+
+    </div>
+
+
+    <a
+      href="#top"
+      class="back-to-top"
+    >
+      voltar ao topo ↑
+    </a>
+
+  </footer>
+
+
+
+  <!-- =========================================================
+       10. MODAL EXPERIÊNCIAS
+  ========================================================= -->
+
+  <dialog
+    class="experience-modal"
+    id="experience-modal"
+  >
+
+    <button
+      class="experience-modal-close"
+      type="button"
+      aria-label="Fechar"
+    >
+      ×
+    </button>
+
+
+    <div class="experience-modal-content">
+
+      <span
+        class="experience-modal-number"
+        id="experience-modal-number"
+      >
+        01
+      </span>
+
+
+      <span class="experience-modal-label">
+        EXPERIÊNCIA
+      </span>
+
+
+      <h2 id="experience-modal-title">
+        Expositores
+      </h2>
+
+
+      <p id="experience-modal-text"></p>
+
+
+      <button
+        class="experience-modal-button"
+        id="experience-modal-button"
+        type="button"
+      >
+        CONTINUAR EXPLORANDO
+        <span>→</span>
+      </button>
+
+    </div>
+
+
+    <div class="experience-modal-decoration">
+      viva
+    </div>
+
+  </dialog>
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
